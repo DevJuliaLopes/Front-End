@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+header .navbar a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 28px;
+    margin: 3rem;
+}
+
+header .navbar a:nth-child(1){
+    text-decoration: none;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.navbar input{
+    margin-top: 2.5rem;
+    background: #FFF;
+    width: 217px;
+    height: 54px;
+    color: #7C70AE;
+    border: none;
+    border-radius: 8px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+section .container{
+    background-image: url(../imgs/ImagemFundo.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+section .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content h1{
+    color: #FFF;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.content p{
+    color: #FFF;
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+}
+
+.content button{
+    width: 318px;
+    height: 83px;
+    background: #FFF;
+    color: #574990;
+    font-size: 35px;
+    border-radius: 12px;
+    border: none;
+    margin: 2rem;
+}
